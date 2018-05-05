@@ -1,0 +1,21 @@
+#edupais 05.05.18
+
+- A aplicação está estruturada da seguinte forma:
+
+-> Uma aplicação "mestre" escrita em PHP" controla o fluxo de ações dentro da plataforma.
+-> A pasta serviços contém os microserviços responsável por features específicas:
+
+Ex: 
+
+service_video_trainng
+service_sms_send
+service_push_notification
+service_edna_boot 
+service_parent_analisys
+service_student_analisys
+service_engagement_analisys
+service_message_analisys
+service_dropout_analisys
+service_fail_analisys
+
+
